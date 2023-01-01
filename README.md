@@ -1,38 +1,18 @@
-# create-svelte
+# First SvelteKit demonstation after version 1 release 
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Normal instructions to get this project local:
 
-## Creating a project
+* git clone https://philrwebb/sveltekit1demo.git 
+* cd sveltekit1demo
+* npm install
+* npm run dev
 
-If you're seeing this, you've probably already done this step. Congrats!
+## What you have:
+* A simple SvelteKit project with routes tied to a layout
+* Some library components - they were part of my original js based demo of beta sveltekit and I have ported them over as typescript
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## The routes provide:
+* A demonstration of an audioplayer component per the svelte
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
