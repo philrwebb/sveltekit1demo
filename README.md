@@ -12,7 +12,5 @@ Normal instructions to get this project local:
 * Some library components - they were part of my original js based demo of beta sveltekit and I have ported them over as typescript
 
 ## The routes provide:
-* A demonstration of an audioplayer component per the svelte
-
-
+* A demonstration of an audioplayer component per the svelte 
 

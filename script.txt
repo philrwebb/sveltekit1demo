@@ -1,0 +1,15 @@
+So, welcome all to my first attempt at a Youtube course.    I must admit to standing on the soldier of giants and much of what I do is imitative.   Although, I do believe I add some value to that which I imitate.
+
+So this is a course on using SvelteKit 1.0 informed by what I have learned from the Svelte community and my own experience.   I am a professional developer, and have been developing for 20 years and I have been using Svelte for 2 years.   I have been using SvelteKit for 1 year in its pre-1.0 state.   I have been using SvelteKit 1.0 for 2 months.
+
+Back in the day (svelte pre sveltekit and sveltekit pre-release) - I developed a number of components both for my own interest and as a demonstration of what could be achieved with svelte.   When sveltekit, came along I brought a lot of these into a sveltekit demonstration application.   I have no set up a sveltekit skeleton application based on typescript and I'm in the process of porting the various components across to this 'container'.
+
+These include (thus far):
+
+a demonstration of a performant calculator for the nth fibonacci number.
+a tabs component - which seems superfluous within a SPA routed application.
+a list component - and its simple and more complex usage.
+a starwars component - demonstrates calling to a remote API and using the data within the list and tabs components.
+
+So - to start at the very beginning - first create your SvelteKit application:
+
