@@ -9,7 +9,6 @@
 	});
 	function registerTab(id: string, title: string) {
 		$tabsdata.titles = [...$tabsdata.titles, { title, id }];
-		console.log($tabsdata.titles);
 	}
 	function unregisterTab(id: string) {
 		const tabIndex = $tabsdata.titles.findIndex((title) => title.id === id);

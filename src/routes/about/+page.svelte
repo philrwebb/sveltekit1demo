@@ -1,25 +1,31 @@
 <h1>About</h1>
 <div class="container">
 	<p>
-		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus rem tempore animi
-		doloremque expedita modi cupiditate eveniet quibusdam ipsum esse consequuntur impedit magni
-		quaerat earum beatae soluta error ad perferendis, dolorem voluptas nostrum laudantium culpa
-		accusantium deserunt? Atque beatae, in quidem eius reiciendis magnam fuga commodi facilis ipsa
-		maiores dolore, sed quos quasi aspernatur dolores voluptatibus labore voluptates placeat aperiam
-		dignissimos, laudantium nam deleniti. Laboriosam voluptatum, quod debitis ex quibusdam ea.
-		Tenetur inventore vel ipsum maxime sit neque harum alias atque fugiat velit ipsa quisquam, in ab
-		at porro nostrum modi esse quibusdam distinctio explicabo hic incidunt totam debitis. Odit.
+		This is a demo site created using sveltekit 1.0. It is a work in progress. The site uses several
+		svelte components that I have created and will publish on npm. These include:
 	</p>
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum recusandae earum consequatur
-		officia facilis repellendus eligendi tempore deleniti eos tenetur.
-	</p>
-	<p>
-		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque explicabo deserunt doloribus
-		ipsum placeat similique architecto quibusdam saepe in beatae nam nesciunt quas delectus quod
-		optio sed fugiat, aspernatur laboriosam? Atque minus voluptate sapiente, similique porro
-		repudiandae veniam dicta eius aperiam magnam consequuntur, dolores eum tempora minima delectus
-		alias vel.
-	</p>
+	<ul>
+		<li>
+			<h2>A Tabs Component</h2>
+			<p>
+				A fairly simple component that allows you to create a Tabs container with multiple contained
+				Tab Each tab can contain other components (the example has two tabs with one displaying an
+				audioplayer and the other a listview)
+			</p>
+		</li>
+		<li>
+			<h2>A List Component</h2>
+			<p>
+				The component expects to receive an array (rows) of arrays (columns in row) and will display
+				in a grid. The component correctly formats numbers and will sort by clicking on header of
+				each row
+			</p>
+		</li>
+	</ul>
 </div>
 
+<style>
+	ul {
+		list-style: none;
+	}
+</style>

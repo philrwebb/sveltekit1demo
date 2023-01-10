@@ -1,63 +1,36 @@
-<script lang="ts"></script>
-<div class="content">
-	<ul>
-		<li>
-			<a href="/">Home</a>
-		</li>
-		<li>
-			<a href="/about">About</a>
-		</li>
-		<li>
-			<a href="/content">Content</a>
-		</li>
-		<li>
-			<a href="/blog">Blog</a>
-		</li>
-		<li>
-			<a href="/audioplayer">Player</a>
-		</li>
-        <li>
-            <a href="/tabsdemo">Tabs Demo</a>
-        </li>
-        <li>
-            <a href="/listdemo">List Demo</a>
-        </li>
-	</ul>
+<script lang="ts">
+	import Navbar from './Navbar.svelte';
+</script>
 
+<div class="container">
+	<Navbar />
+</div>
+
+<div class="container">
 	<slot>No Javascript installed</slot>
 </div>
 
 <style>
-    :global(body)
-    {
-        margin: 0;
-        padding: 0;  
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.2rem;
-    }
-    :global(.container) {
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: justify;
-    }
-	.content {
-        margin: auto;
-        width: 80%;
-        padding: 10px;
+	:global(body) {
+		margin: 0;
+		padding: 0;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.2rem;
 	}
-	ul {
-		list-style: none;
-		display: flex;
-        justify-content: space-between;		
+	:global(.container) {
+		display: grid;
+		grid-template-columns: 1fr;
+		text-align: justify;
+		justify-content: space-around;
+		max-width: 1280px;
+		margin: 0 auto;
+
+
 	}
-	a {
-		text-decoration: none;
-		color: blue;
+	:global(.content) {
+		margin: 0 auto;
+		max-width: 1280px;
+		width: 80%;
+		/* padding: 10px; */
 	}
-	a:hover {
-		color: lightblue;
-	}
-    a:visited {
-        color: purple;
-    }
 </style>
