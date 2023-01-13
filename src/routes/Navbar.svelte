@@ -41,9 +41,9 @@
 
 <div class="content">
 	<ul>
-        {#each navs as nav}
+        {#each navs as {title, href }}
             <li>
-                <a href={nav.href} class:active={routeId == nav.href}>{nav.title}</a>
+                <a href={href} class:active={routeId == href}>{title}</a>
             </li>
         {/each}
 	</ul>
