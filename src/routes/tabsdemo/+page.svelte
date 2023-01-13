@@ -2,6 +2,8 @@
 	import Tabs from '$lib/tabs/tabs.svelte';
 	import Tab from '$lib/tabs/tab.svelte';
 	import Fib from '$lib/fibonacci/fibonacci.svelte';
+	import Pattern from './pattern.svelte';
+	import ParticleRain from './particlerain.svelte';
 	import AudioPlayer, { stopAll } from '../../lib/audioplayer/audioplayer.svelte';
 	$: selectedTab = '1';
 </script>
@@ -55,12 +57,12 @@
 			performer="Markus Staab"
 		/>
 	</Tab>
-	<Tab id="3" title="Tab 3">
-		<h1>Tab 3</h1>
-		<p>
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia labore a sunt id repudiandae
-			tempora vero aperiam quae ullam error nulla animi et similique, fugiat dolore facilis libero,
-			eos officia.
-		</p>
+	<Tab id="3" title="Pattern">
+		<h1>Pattern</h1>
+		<Pattern />
+	</Tab>
+	<Tab id="4" title="Particle Rain">
+		<h1>Particle Rain</h1>
+		<ParticleRain />
 	</Tab>
 </Tabs>
